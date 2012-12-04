@@ -145,6 +145,6 @@ public class ManyFilesTester {
 	 * This method is added to do some playing around with egit
 	 */
 	private void testMethod() {
-		System.out.println("HELP from testMethod()");
+		System.out.println("Hello from testMethod()");
 	}
 }
