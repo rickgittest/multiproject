@@ -147,4 +147,11 @@ public class ManyFilesTester {
 	private void testMethod() {
 		// TODO - add something to this method
 	}
+	
+	/**
+	 * This method is added to test multiple branches
+	 */
+	private void testFeatureMethod() {
+		
+	}
 }
