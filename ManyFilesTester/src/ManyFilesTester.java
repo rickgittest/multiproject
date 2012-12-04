@@ -140,4 +140,11 @@ public class ManyFilesTester {
 			e.printStackTrace();
 		}
 	}
+
+	/**
+	 * This method is added to do some playing around with egit
+	 */
+	private void testMethod() {
+		// TODO - add something to this method
+	}
 }
