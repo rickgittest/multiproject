@@ -152,6 +152,6 @@ public class ManyFilesTester {
 	 * This method is added to test multiple branches
 	 */
 	private void testFeatureMethod() {
-		
+		System.out.println("Hello from testFeatureMethod()");
 	}
 }
