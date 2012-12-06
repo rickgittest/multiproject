@@ -72,11 +72,19 @@ public class ManyFilesTester {
 	 */
 	private byte[] readFile(File f) {
 		byte[] bytes = new byte[1000];
+		FileInputStream fis = null;
 		try {
-			FileInputStream fis = new FileInputStream(f);
+			fis = new FileInputStream(f);
 			fis.read(bytes);
 		} catch (IOException e) {
 			e.printStackTrace();
+		} finally {
+			try {
+				fis.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 		
 		return bytes;
@@ -153,5 +161,11 @@ public class ManyFilesTester {
 	 */
 	private void testFeatureMethod() {
 		System.out.println("Hello from testFeatureMethod()");
+	}
+	
+	/**
+	 * Method added for "Another issue" issue
+	 */
+	private void anotherIssueMethod() {
 	}
 }
