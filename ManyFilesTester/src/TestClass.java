@@ -27,5 +27,11 @@ public class TestClass {
 		// Finishing the new feature
 		System.out.println("Ending new feature.");
 	}
+	
+	public void processFeature2() {
+		// Implement the start of the new feature
+		System.out.println("Starting new feature.");
+		
+	}
 
 }
