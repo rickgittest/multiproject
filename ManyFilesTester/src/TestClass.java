@@ -30,8 +30,10 @@ public class TestClass {
 	
 	public void processFeature2() {
 		// Implement the start of the new feature
-		System.out.println("Starting new feature.");
+		System.out.println("Starting feature2.");
 		
+		// Finishing feature2
+		System.out.println("Ending feature2.");
 	}
 
 }
