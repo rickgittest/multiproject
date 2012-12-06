@@ -20,6 +20,9 @@ public class TestClass {
 	private void processNewFeature() {
 		// Implement the start of the new feature
 		System.out.println("Starting new feature.");
+		
+		// Finishing the new feature
+		System.out.println("Ending new feature.");
 	}
 
 }
