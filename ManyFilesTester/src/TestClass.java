@@ -21,6 +21,9 @@ public class TestClass {
 		// Implement the start of the new feature
 		System.out.println("Starting new feature.");
 		
+		// Fixed this to solve all the world's problems
+		System.out.println("Everything is now good.");
+		
 		// Finishing the new feature
 		System.out.println("Ending new feature.");
 	}
