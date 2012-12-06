@@ -18,8 +18,8 @@ public class TestClass {
 	}
 
 	private void processNewFeature() {
-		// TODO Auto-generated method stub
-		
+		// Implement the start of the new feature
+		System.out.println("Starting new feature.");
 	}
 
 }
